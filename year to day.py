@@ -1,0 +1,5 @@
+year = input("Enter year : ")
+month = input("Enter mounth: ")
+day = input ("Enter day: ")
+days = (int(year)*365) + (int(month)*30) + int(day)
+print ("you have",days,"days old")
